@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 import { NavigationMenuDemo } from "./navigation";
 
 
-export default () => {
+const Header = () => {
 
     const [state, setState] = useState(false)
 
@@ -90,3 +90,5 @@ export default () => {
         </>
     )
 }
+Header.displayName = 'Header';
+export default Header;
