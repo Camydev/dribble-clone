@@ -1,11 +1,13 @@
+import * as React from "react"
+
 import Image from "next/image"
 import Link from "next/link"
 import { IoMdHeartEmpty } from "react-icons/io";
 import { TbBookmark } from "react-icons/tb";
 
-export default () => {
 
 
+    const Card = () => {
 
     return (
         <section className="mt-8 mb-10 ">
@@ -53,3 +55,5 @@ export default () => {
         </section>
     )
 }
+Card.displayName = 'Card';
+export default Card;
