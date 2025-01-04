@@ -24,7 +24,7 @@ const Header = () => {
         <>
             <nav className="relative items-center pt-5 px-4 mx-auto sm:px-8 md:flex md:space-x-6">
                 <div className="flex justify-between">
-                    <a href="javascript:void(0)">
+                    <a href="javascript:void(0)" className="rotate-[-3deg]">
                         <Image
                             src="/img/dribble.png"
                             width={120}
