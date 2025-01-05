@@ -14,7 +14,7 @@ const firstRow = reviews;
 const ReviewCard = ({ id, img, name }: { id: number; img: string; name: string }) => {
   return (
     <figure className={cn("relative w-64 cursor-pointer overflow-hidden", "hover:bg-gray-950/[.05]")}>
-      <blockquote className="mt-2">
+      <blockquote className="mt-2" key={id}>
         <Image className="w-full rounded-xl" src={img} alt={name} width={500} height={500} />
       </blockquote>
       <div>{name}</div>
