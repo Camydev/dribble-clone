@@ -37,27 +37,27 @@ const Hero = () => {
             <div className='flex md:justify-center justify-around mt-8 '>
                 <p></p>
                 <div className="md:flex">
-                    <div className='text-slate-400 mr-4 mb-2 md:mb-0 text-sm'>Trending searches</div>
+                    <div className='text-slate-400 mr-4 mb-2 md:mb-0 text-sm'>Trending&nbsp;searches</div>
                     <div className='md:flex  grid grid-cols-2'>
 
                         <div>
                             <button className="inline-flex items-center mb-2 btn rounded-full mr-4 bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                                landing page
+                                landing&nbsp;page
                             </button>
                         </div>
                         <div>
                             <button className="inline-flex items-center mb-2 rounded-full mr-4  bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                                e-commerce
+                                e&nbsp;-&nbsp;commerce
                             </button>
                         </div>
                         <div>
                             <button className="inline-flex items-center mb-2 rounded-full mr-4  bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                                mobile app
+                                mobile&nbsp;app
                             </button>
                         </div>
                         <div>
                             <button className="inline-flex items-center mb-2 rounded-full mr-4  bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                                logo design
+                                logo&nbsp;design
                             </button>
                         </div>
                         <div>

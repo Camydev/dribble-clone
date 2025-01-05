@@ -8,6 +8,8 @@ import {
     SelectValue,
 } from "@/components/ui/select"
 import Card from './Card'
+import Link from 'next/link'
+
 
 const SectionCard = () => {
     return (
@@ -21,51 +23,66 @@ const SectionCard = () => {
                         <SelectContent>
                             <SelectGroup>
                                 <SelectItem value="e">Popular</SelectItem>
-                                <SelectItem value="n">New & Noteworthy</SelectItem>
+                                <SelectItem value="n">New&nbsp;&&nbsp;Noteworthy</SelectItem>
                             </SelectGroup>
                         </SelectContent>
                     </Select>
 
                 </div>
        
-                <div className='flex'>
+             <div className='flex snap-x snap-mandatory overflow-x-scroll md:overflow-x-hidden'>
 
                     <div>
-                        <button className="inline-flex items-center mb-2 btn rounded-full mr-4 bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                            landing page
+                        <button className="inline-flex items-center mb-2 btn rounded-full mr-4 bg-gray-100 hover:bg-gray-50 px-4 py-2 text-md font-medium text-gray-900 ring-1 ring-inset ring-gray-500/10">
+                           Discover
                         </button>
                     </div>
                     <div>
-                        <button className="inline-flex items-center mb-2 rounded-full mr-4  bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                            e-commerce
-                        </button>
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                            Animation
+                        </Link>
                     </div>
                     <div>
-                        <button className="inline-flex items-center mb-2 rounded-full mr-4  bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                            mobile app
-                        </button>
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                            Branding
+                        </Link>
                     </div>
                     <div>
-                        <button className="inline-flex items-center mb-2 rounded-full mr-4  bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                            logo design
-                        </button>
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                            Illusration
+                        </Link>
                     </div>
                     <div>
-                        <button className="inline-flex items-center mb-2 rounded-full mr-4  bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                            dashboard
-                        </button>
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                            Mobile
+                        </Link>
                     </div>
                     <div>
-                        <button className="inline-flex items-center mb-2 rounded-full mr-4  bg-gray-100 hover:bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                            icons
-                        </button>
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                            Print
+                        </Link>
+                    </div>
+                    <div>
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                            Product&nbsp;design
+                        </Link>
+                    </div>
+                    <div>
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                            Typography
+                        </Link>
+                    </div>
+                    <div>
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                            Web&nbsp;design
+                        </Link>
                     </div>
 
-                </div>
+                </div> 
             </div>
-            <div className=''>
+          <div className=''>
                 <Card />
-            </div>
+            </div> 
         </div>
     )
 }
