@@ -1,4 +1,5 @@
 'use client';
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import SectionCard from "@/components/SectionCard";
@@ -26,6 +27,9 @@ export default function Home() {
         </div>
         <div className=" mb-8">
           <SectionMarquee/>
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </div>

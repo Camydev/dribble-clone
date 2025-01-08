@@ -13,11 +13,20 @@ const firstRow = reviews;
 
 const ReviewCard = ({ id, img, name }: { id: number; img: string; name: string }) => {
   return (
-    <figure className={cn("relative w-64 cursor-pointer overflow-hidden", "hover:bg-gray-950/[.05]")}>
+    <figure className={cn("relative w-64 cursor-pointer overflow-hidden", "")}>
       <blockquote className="mt-2" key={id}>
-        <Image className="w-full rounded-xl" src={img} alt={name} width={500} height={500} />
+        <div className="relative">
+        <Image className="w-full rounded-xl opacity-50" src={img} alt={name} width={500} height={500} />
+        <div className="absolute inset-0 right-2 top-2 opacity-75 ">
+         <Image className="w-full rounded-xl " src={img} alt={name} width={500} height={500} /> 
+        </div>
+        <div className="absolute inset-0 right-3 top-3 ">
+         <Image className="w-full rounded-xl " src={img} alt={name} width={500} height={500} /> 
+        </div>
+
+        </div>
       </blockquote>
-      <div>{name}</div>
+      <div className="mt-4 text-sm font-medium">{name}</div>
     </figure>
   );
 };
