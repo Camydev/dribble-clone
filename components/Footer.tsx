@@ -6,7 +6,6 @@ import Link from "next/link";
 import { FaFacebookSquare } from "react-icons/fa";
 import { AiFillPinterest } from "react-icons/ai";
 import { RiInstagramFill } from "react-icons/ri";
-import { FaArrowUp } from "react-icons/fa6";
 import ScrollToTopButton from "./ScrollToTopButton";
 
 const Footer = () => {
