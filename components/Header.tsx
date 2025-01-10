@@ -22,7 +22,7 @@ const Header = () => {
  */
     return (
         <>
-            <nav className="relative items-center pt-5 px-4 mx-auto sm:px-8 md:flex md:space-x-6">
+            <nav className="relative fixed top-0 left-0 z-50  items-center pt-5 px-4 mx-auto sm:px-8 md:flex md:space-x-6">
                 <div className="flex justify-between">
                     <a href="javascript:void(0)" className="rotate-[-3deg]">
                         <Image
@@ -49,7 +49,7 @@ const Header = () => {
                         }
                     </button>
                 </div>
-                <ul className={`flex-1 justify-between mt-12 md:text-sm md:font-medium md:flex md:mt-0 ${state ? 'absolute inset-x-0 px-4 border-b bg-white md:border-none md:static' : 'hidden'}`}>
+                <ul className={`flex-1 justify-between mt-12 md:text-sm md:font-medium md:flex md:mt-0 ${state ? 'absolute inset-x-0 pt-5 mt-2 px-4 border-b bg-white md:border-none md:static dark:bg-gray-950 dark:text-white' : 'hidden'}`}>
                     <div className="items-center space-y-5 md:flex md:space-x-6 md:space-y-0 md:ml-12">
                         {/* {
                             navigation.map((item, idx) => (

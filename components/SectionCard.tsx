@@ -38,42 +38,42 @@ const SectionCard = () => {
                         </button>
                     </div>
                     <div>
-                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900 dark:text-slate-300">
                             Animation
                         </Link>
                     </div>
                     <div>
-                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900  dark:text-slate-300">
                             Branding
                         </Link>
                     </div>
                     <div>
-                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900 dark:text-slate-300">
                             Illusration
                         </Link>
                     </div>
                     <div>
-                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900 dark:text-slate-300">
                             Mobile
                         </Link>
                     </div>
                     <div>
-                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900 dark:text-slate-300">
                             Print
                         </Link>
                     </div>
                     <div>
-                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900 dark:text-slate-300">
                             Product&nbsp;design
                         </Link>
                     </div>
                     <div>
-                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900 dark:text-slate-300">
                             Typography
                         </Link>
                     </div>
                     <div>
-                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900">
+                        <Link href="#" className="inline-flex items-center mb-2 mr-4  px-4 py-2 text-md font-medium text-gray-900 dark:text-slate-300">
                             Web&nbsp;design
                         </Link>
                     </div>

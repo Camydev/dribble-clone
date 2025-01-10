@@ -55,6 +55,43 @@ const Card = () => {
             userLocation: "Los Angeles",
             views: "5k",
         },
+        {
+            id: 5,
+            imageSrc: "/img/image5.webp",
+            title: "Voice chat",
+            userImageSrc: "/img/profil5.webp",
+            userName: "Cloe Doe",
+            userLocation: "Los Angeles",
+            views: "1k",
+        },
+        {
+            id: 6,
+            imageSrc: "/img/image6.webp",
+            title: "Datacenter",
+            userImageSrc: "/img/profil6.webp",
+            userName: "Dorian Bhat",
+            userLocation: "Los Angeles",
+            views: "15k",
+        },
+        {
+            id: 7,
+            imageSrc: "/img/image7.webp",
+            title: "Fresh design",
+            userImageSrc: "/img/profil7.webp",
+            userName: "Harry Doe",
+            userLocation: "Los Angeles",
+            views: "50k",
+        },
+        {
+            id: 8,
+            imageSrc: "/img/image8.webp",
+            title: "Glorious",
+            userImageSrc: "/img/profil7.webp",
+            userName: "Deepak Bhat",
+            userLocation: "Los Angeles",
+            views: "5k",
+        },
+
     ]
     const [likes, setLikes] = React.useState<Likes>(
         {
@@ -148,9 +185,9 @@ const Card = () => {
                                     </div>
                                 </div>
                             </div>
-                            <span className=" ml-2 text-gray-900 font-semibold">{card.userName}</span>
+                            <span className=" ml-2 text-gray-900 font-semibold dark:text-slate-300 pr-2">{card.userName}</span>
                             <span>
-                                <button className="inline-flex items-center btn rounded-md bg-gray-400 hover:bg-gray-900  py-1 px-1 text-xs font-bold text-slate-100">
+                                <button className="inline-flex items-center btn rounded-md bg-gray-400 hover:bg-gray-900  py-1/2 px-1 text-xs font-bold text-slate-100">
                                     PRO
                                 </button>
 

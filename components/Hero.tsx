@@ -25,8 +25,8 @@ const Hero = () => {
                     />
                     <div className="absolute inset-y-0 right-4 flex items-center">
                         <select className="text-sm font-bold bg-transparent outline-none  rounded-lg h-full">
-                            <option className='font-bold bg-slate-100'>Shots</option>
                             <option className='font-bold bg-slate-100'>Designers</option>
+                            <option className='font-bold bg-slate-100'>Shots</option>
                         </select>
                         <div className='rounded-full bg-[#EA4C89] p-2 text-white'><IoIosSearch size={26} /></div>
                     </div>

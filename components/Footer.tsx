@@ -6,6 +6,8 @@ import Link from "next/link";
 import { FaFacebookSquare } from "react-icons/fa";
 import { AiFillPinterest } from "react-icons/ai";
 import { RiInstagramFill } from "react-icons/ri";
+import { FaArrowUp } from "react-icons/fa6";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 const Footer = () => {
 
@@ -68,12 +70,12 @@ const Footer = () => {
             href: '#',
             name: 'Resources'
         },
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
     ]
     const footerNavs3 = [
         {
@@ -88,16 +90,17 @@ const Footer = () => {
             href: '#',
             name: 'Cookies'
         },
-      
- 
-        
+
+
+
     ]
     const currentYear = new Date().getFullYear();
     return (
         <footer className="pt-10 pb-10">
-            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
-                    <div className="md:flex md:justify-between space-y-6">
-                        <div className="flex justify-center">
+            <div className="relative">
+            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 ">
+                <div className="md:flex md:justify-between space-y-6 md:mb-12">
+                    <div className="flex justify-center">
 
                         <a href="javascript:void(0)" className="rotate-[-3deg]">
                             <Image
@@ -107,12 +110,12 @@ const Footer = () => {
                                 alt="Dribbble logo"
                             />
                         </a>
-                        </div>
-                        <div className="md:ml-16">
+                    </div>
+                    <div className="md:ml-16">
                         <ul className="flex flex-wrap items-center justify-center gap-4 text-sm sm:text-base">
                             {
                                 footerNavs.map((item, idx) => (
-                                    <li className="text-gray-800 hover:text-gray-500 font-semibold mx-2 md:mx-4 duration-150" key={idx}>
+                                    <li className="text-gray-800 hover:text-gray-500 dark:text-slate-300 font-semibold mx-2 md:mx-4 duration-150" key={idx}>
                                         <Link key={idx} href={item.href}>
                                             {item.name}
                                         </Link>
@@ -121,51 +124,51 @@ const Footer = () => {
                             }
                         </ul>
 
+                    </div>
+                    <div className="mt-6 flex justify-center gap-4 items-center text-gray-900 dark:text-slate-300">
+                        <div>
+                            <FaXTwitter size={25} />
                         </div>
-                    <div className="mt-6 flex justify-center gap-4 items-center text-gray-900">
-                       <div>
-                        <FaXTwitter size={25}/>
-                       </div>
-                       <div>
-                        <FaFacebookSquare size={25}/>
-                       </div>
-                       <div>
-                        <RiInstagramFill size={25}/>
-                       </div>
-                       <div>
-                        <AiFillPinterest size={25}/>
-                       </div>
+                        <div>
+                            <FaFacebookSquare size={25} />
+                        </div>
+                        <div>
+                            <RiInstagramFill size={25} />
+                        </div>
+                        <div>
+                            <AiFillPinterest size={25} />
+                        </div>
 
                     </div>
 
-                    </div>
+                </div>
                 <div className="md:flex md:justify-between pt-10">
                     <div className="flex text-center">
                         <div>
 
-                        <p>© {currentYear} Dribbble</p>
+                            <p>© {currentYear} Dribbble</p>
                         </div>
                         <div>
-                        <ul className="flex flex-wrap items-center justify-items-center gap-2 text-sm sm:text-base ">
-                            {
-                                footerNavs3.map((item, idx) => (
-                                    <li className="text-gray-800 hover:text-gray-500  mx-2 duration-150" key={idx}>
-                                        <Link key={idx} href={item.href}>
-                                            {item.name}
-                                        </Link>
-                                    </li>
-                                ))
-                            }
-                        </ul>
+                            <ul className="flex flex-wrap items-center justify-items-center gap-2 text-sm sm:text-base ">
+                                {
+                                    footerNavs3.map((item, idx) => (
+                                        <li className="text-gray-800 hover:text-gray-500 dark:text-slate-500  mx-2 duration-150" key={idx}>
+                                            <Link key={idx} href={item.href}>
+                                                {item.name}
+                                            </Link>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
                         </div>
 
 
                     </div>
-                    <div className="mt-4">
-                    <ul className="flex flex-wrap items-center justify-items-center gap-4 text-sm sm:text-base ">
+                    <div className="mt-4 md:mt-0">
+                        <ul className="flex flex-wrap items-center justify-items-center gap-4 text-sm sm:text-base ">
                             {
                                 footerNavs2.map((item, idx) => (
-                                    <li className="text-gray-800 hover:text-gray-500  mx-2 duration-150" key={idx}>
+                                    <li className="text-gray-800 hover:text-gray-500 dark:text-slate-500 mx-2 duration-150" key={idx}>
                                         <Link key={idx} href={item.href}>
                                             {item.name}
                                         </Link>
@@ -176,6 +179,8 @@ const Footer = () => {
                     </div>
 
                 </div>
+            </div>
+           <ScrollToTopButton />
             </div>
         </footer>
     )
