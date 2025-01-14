@@ -76,7 +76,7 @@ const page = () => {
                         </form>
                         <div className='text-center text-sm mt-12 font-light'>
 
-                            <p className='mt-8 text-sm font-normal'>Don't have an account? <Link href='/signup/new' className='underline'>Sign up </Link></p>
+                            <p className='mt-8 text-sm font-normal'>{`Don't have an account?`} <Link href='/signup/new' className='underline'>Sign up </Link></p>
                         </div>
 
                     </div>
