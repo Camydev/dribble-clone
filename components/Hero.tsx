@@ -20,7 +20,7 @@ const Hero = () => {
 
                     <input
                         type="text"
-                        placeholder="What are you looking for?"
+                        placeholder="What are you looking..."
                         className="w-full px-4 md:pl-8 md:pr-16 py-4 appearance-none bg-slate-100 outline-none border focus:border-slate-300 shadow-sm rounded-full"
                     />
                     <div className="absolute inset-y-0 right-4 flex items-center">

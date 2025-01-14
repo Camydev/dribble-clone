@@ -26,14 +26,14 @@ const HeaderTwo = () => {
         <>
             <nav className=" fixed top-0 left-0 right-0 z-50 pb-2 bg-white dark:bg-gray-950  items-center pt-5 px-4 mx-auto sm:px-8 md:flex md:space-x-6">
                 <div className="flex justify-between">
-                    <a href="javascript:void(0)" className="rotate-[-3deg]">
+                    <Link href="/" className="rotate-[-3deg]">
                         <Image
                             src="/img/dribble.png"
                             width={120}
                             height={50}
                             alt="Dribbble logo"
                         />
-                    </a>
+                    </Link>
 
                     <div className="md:hidden">
                        <SearchComponent/>
@@ -85,12 +85,12 @@ const HeaderTwo = () => {
                         <div className="flex justify-between items-center">
 
                             <div>
-                                <Link href="#" >
+                                <Link href="/signup/new" >
                                     <button className="mr-2">
                                         Sign up
                                     </button>
                                 </Link>
-                                <Link href="#" >
+                                <Link href="/session/new" >
                                     <Button className="default" size="sm">
                                         Log in
                                     </Button>

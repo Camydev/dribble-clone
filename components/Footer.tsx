@@ -142,10 +142,10 @@ const Footer = () => {
 
                 </div>
                 <div className="md:flex md:justify-between pt-10">
-                    <div className="flex text-center">
+                    <div className="flex flex-col  text-center">
                         <div>
 
-                            <p>© {currentYear} Dribbble</p>
+                            <p>© {currentYear} Dribbble clone with <Link href="https://camydev.vercel.app" target="_blank" className="text-[#EA4C89]"> Camydev </Link></p>
                         </div>
                         <div>
                             <ul className="flex flex-wrap items-center justify-items-center gap-2 text-sm sm:text-base ">

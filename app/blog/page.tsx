@@ -62,19 +62,21 @@ const page = () => {
                                 blogData.map((data) => (
                                     <div key={data.id}>
 
-                                        <div  className='flex space-x-2'>
+                                        <div className='md:flex space-y-2'>
+                                            <p className='md:hidden text-gray-500 uppercase'>{data.date}</p>
+                                            <h2 className='md:hidden text-lg md:text-2xl font-semibold hover:text-[#EA4C89]'><Link href="#">{`${data.title}`}</Link></h2>
 
-                                            <div className='w-1/4'>
+                                            <div className='w-full md:w-1/4'>
                                                 <Link href='#' className='hover:opacity-75'> <Image src={data.image} className='w-48 h-42 rounded-lg' width={500} height={500} alt='image' /></Link>
                                             </div>
-                                            <div className='pl-4 w-3/4'>
-                                                <p className='text-gray-500 uppercase'>{data.date}</p>
-                                                <h2 className='text-2xl font-semibold hover:text-[#EA4C89]'><Link href="#">{`${data.title}`}</Link></h2>
-                                                <p className='text-lg text-gray-500'>{`${data.small_content}`}</p>
+                                            <div className='md:pl-4 w-3/4'>
+                                                <p className='hidden md:block text-gray-500 uppercase'>{data.date}</p>
+                                                <h2 className='hidden md:block text-lg md:text-2xl font-semibold hover:text-[#EA4C89]'><Link href="#">{`${data.title}`}</Link></h2>
+                                                <p className=' text-sm  md:text-lg text-gray-500'>{`${data.small_content}`}</p>
                                             </div>
 
                                         </div>
-                        <hr className='my-4' />
+                                        <hr className='my-4' />
 
                                     </div>
 
@@ -85,7 +87,7 @@ const page = () => {
                         </div>
                         <div className='flex justify-center text-2xl text-gray-300 hover:text-gray-400'>
                             <Link href="#"> <IoIosArrowDroprightCircle size={60} /></Link>
-                       
+
 
                         </div>
                     </div>
@@ -139,7 +141,7 @@ const page = () => {
             </div>
             <SectionMarquee />
             <Footer />
-            
+
 
         </div>
     )
