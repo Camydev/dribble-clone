@@ -60,7 +60,7 @@ const Header = () => {
                         } */}
                         <NavigationMenuDemo />
                     </div>
-                    <li className="order-2 py-5 md:py-0">
+                    <li className="order-2 py-5 pl-4 md:py-0">
                         <div className="flex justify-between items-center">
 
                             <div>
@@ -70,7 +70,7 @@ const Header = () => {
                                     </button>
                                 </Link>
                                 <Link href="/session/new" >
-                                    <Button className="default" size="sm">
+                                    <Button className="default " size="sm">
                                         Log in
                                     </Button>
                                 </Link>

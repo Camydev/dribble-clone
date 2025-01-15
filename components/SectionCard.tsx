@@ -30,7 +30,7 @@ const SectionCard = () => {
 
                 </div>
        
-             <div className='flex snap-x snap-mandatory overflow-x-scroll md:overflow-x-hidden'>
+             <div className='flex snap-x snap-mandatory mt-4 md:mt-0 overflow-x-scroll md:overflow-x-hidden'>
 
                     <div>
                         <button className="inline-flex items-center mb-2 btn rounded-full mr-4 bg-gray-100 hover:bg-gray-50 px-4 py-2 text-md font-medium text-gray-900 ring-1 ring-inset ring-gray-500/10">
