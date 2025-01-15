@@ -9,9 +9,9 @@ const geologicaFont = Geologica({
 
 const Hero = () => {
     return (
-        <div className='md:p-20 p-8 pt-16 text-center'>
+        <div className='md:p-20 p-8 pt-16 text-center mt-8'>
             <div className='flex flex-col justify-center items-center mb-8'>
-                <h1 className={`${geologicaFont.className} text-2xl md:text-6xl `}>Discover the world’s <br />top designers</h1>
+                <h1 className={`${geologicaFont.className} text-4xl md:text-6xl `}>Discover the world’s <br />top designers</h1>
                 <p className='text-sm md:text-lg mt-4 w-full md:w-1/2'>Explore work from the most talented and accomplished designers ready to take on your next project</p>
             </div>
             <div className='md:flex md:justify-center'>
